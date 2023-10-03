@@ -1,0 +1,107 @@
+.like-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 7px 10px;
+    margin-bottom: -20px;
+
+    .hr-line {
+        margin-top: -15px;
+        hr {
+          border-top: 1px solid rgb(181, 181, 181);
+        }
+    }
+
+    .all-comments{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(227, 227, 227);
+        border-radius: 10px;
+        position: relative;
+        margin: 10px;
+        .name {
+            color: #212121;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 15px;
+          }
+
+          .comment {
+            margin-left: 10px;
+            margin-top: 0px;
+            font-size: 14px;
+          }
+
+          .timestamp {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+          }
+
+    }
+
+    .like-comment{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .comment-input{
+        height: 40px;
+        background-color: whitesmoke;
+        padding-left: 7px;
+        border-radius: 30px;
+        border: 1px solid #979797;
+        font-family: system-ui;
+        font-size: 16px;
+    }
+    .comment-input:focus{
+        outline: 1px solid #005a8a;
+        color: #494949;
+    }
+    .add-comment-btn{
+        width: 150px;
+        height: 35px;
+        background-color: #004c75;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        color: rgba(58, 58, 58, 0.835);
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .likes-comment-inner{
+        display: flex;
+        align-items: center;
+        margin-top: -25px;
+        cursor: pointer;
+        .blue{
+            color: #004c75;
+        }
+        .black{
+            color: black;
+        }
+
+        p{
+            font-family: Inter, sans-serif;
+            font-weight: 600;
+            color: rgba(58, 58, 58, 0.835);
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+
+}
