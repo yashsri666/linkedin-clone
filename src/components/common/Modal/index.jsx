@@ -53,7 +53,7 @@ const ModalComponent = ({
             className="modal-input"
             value={status}
             placeholder="Share Something Useful.."
-            onChange={(event) => setStatus(event.target.value)}
+            onChange={setStatus}
           />
           {progress === 0 || progress === 100 ? (
             <></>
