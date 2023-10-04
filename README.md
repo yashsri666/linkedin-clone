@@ -1,6 +1,6 @@
 # LinkedIn clone built using React and Firebase
 
-https://linkedin-clone-4ce54.web.app/
+Link: https://linkedin-clone-4ce54.web.app/
 
 Features
 
